@@ -1,0 +1,13 @@
+Randomizer Version: 1720
+ROM: Pokemon Platinum (U)
+Code: CPUE
+Reported Support Level: Complete
+
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at com.dabomstew.pkrandom.newnds.NARCArchive.readNitroFrames(NARCArchive.java:170)
+	at com.dabomstew.pkrandom.newnds.NARCArchive.<init>(NARCArchive.java:21)
+	at com.dabomstew.pkrandom.romhandlers.AbstractDSRomHandler.readNARC(AbstractDSRomHandler.java:110)
+	at com.dabomstew.pkrandom.romhandlers.Gen4RomHandler.loadedROM(Gen4RomHandler.java:294)
+	at com.dabomstew.pkrandom.romhandlers.AbstractDSRomHandler.loadRom(AbstractDSRomHandler.java:61)
+	at com.dabomstew.pkrandom.gui.RandomizerGUI$2.run(RandomizerGUI.java:1003)
